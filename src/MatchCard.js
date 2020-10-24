@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Card, Col, Row } from 'reactstrap'
+import { Card, Col, Row } from 'reactstrap';
 
 function MatchCard() {
     const matches = [
@@ -12,7 +12,7 @@ function MatchCard() {
 
     return (
         <div className="match-card">
-            <Row className = "matchcard-row">
+            <Row className="matchcard-row">
                 {matches.map(match => (
                     <Col>
                         <Card style={{width:'20rem', height:'20rem'}}>
