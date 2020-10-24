@@ -5,7 +5,7 @@ import MatchCard from "./MatchCard"
 function App() {
   return (
     <div className="App">
-      <MatchCard className="card-app"></MatchCard>
+      <MatchCard className="card-appjs"></MatchCard>
     </div>
   );
 }
