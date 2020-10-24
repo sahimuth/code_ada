@@ -1,13 +1,27 @@
 .card-content {
-  text-align: center;
+  text-align: bottom;
   
 }
 .Bio {
-  color: rgb(69, 196, 156);
-  font-family: courier;
-  font-size: 160%;
-}
+  color: rgb(0, 0, 0);
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  
+  text-align: center;
 
+}
+.head{
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 87px;
+color: #000000;
+
+}
 .matchcard-row {
   padding-left: 15px;
 }

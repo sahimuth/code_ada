@@ -6,18 +6,23 @@ import MatchCard from "./MatchCard"
 function App() {
   return (
     <div className="App">
-      <h1>Welcome Code Ada Hackers!</h1>
+      
+      <h1 className="head">Welcome Code Ada Hackers!</h1>
+    
       <Card style={{width:'80rem', height:'20rem'}}>
-        <div className="Bio"> 
+        <div>
+        <div className="BioH"> 
           <h3>Your Bio!</h3>
-            <div>
-              <p>Your current hobbies include: swimming, tennis, knitting, and dancing.
-                add more interests on your profile page to meet new people. Happy connecting!
+          </div>
+            <div className="Bio">
+              <p>Your current hobbies include: tennis, golf, knitting, running, boxing, and debate.
+                Add more interests on your profile page to meet people with the same interests. Happy connecting!
               </p>
           </div>
-       
-       
         </div>
+       
+       
+        
        
        
        </Card>
