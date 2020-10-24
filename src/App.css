@@ -1,3 +1,7 @@
 .card-content {
   text-align: center;
 }
+
+.matchcard-row {
+  padding-left: 15px;
+}
