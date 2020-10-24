@@ -1,5 +1,11 @@
 .card-content {
   text-align: center;
+  
+}
+.Bio {
+  color: rgb(69, 196, 156);
+  font-family: courier;
+  font-size: 160%;
 }
 
 .matchcard-row {
