@@ -12,7 +12,7 @@ function DeleteCard() {
         <div classname="delete-card">
             <Row className="deletecard-row">
                 {deletedMatches.map(deleted => (
-                    <Col className="deletecard-col">
+                    <Col sm="2">
                         <Card style={{width:'10rem', height:'10rem'}}>
                             <div className="deletecard-content">
                                 <img src={deleted.imglink} alt="" height='150' width='150'></img>
