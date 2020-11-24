@@ -1,0 +1,47 @@
+.card-content {
+  text-align: center;
+}
+
+.head {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 87px;
+  color: #000000;
+  padding-bottom: 25px;
+  padding-left: 15px;
+}
+
+.BioH {
+  padding-left: 30px;
+}
+
+.Bio {
+  font-style: italic;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.bio-card {
+  display: flex;
+}
+
+.matchcard-row,
+.deletecard-row {
+  padding-left: 15px;
+}
+
+.head {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 87px;
+  color: #000000;
+}
+
+.text {
+  padding-top: 20px;
+  padding-left: 15px;
+}
